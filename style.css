@@ -1,20 +1,31 @@
 *{
   border: 1px solid black;
+  font-family: arial,sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
 }
 
 a {
   text-decoration: none;
 }
+
+div {
+  display:block;
+}
 .nav {
   float: right;
   clear: left;
+  width: 100%;
+  flex: auto;
+  justify-content: flex-end;
 }
 
 .page {
   min-height: 100%;
   position: absolute;
-  width: 980px;
-  min-width: 980px;
 }
 
 .body {
@@ -29,13 +40,23 @@ a {
 
 .search_bar {
   display: inline-block;
+  width: 100%;
+}
+
+img.search_bar {
+  float: right;
+}
+
+.footer {
+  display: block;
+  height: 40px;
+  position: absolute;
+  width: 100%;
 }
 
 .buisness {
   float: left;
-  clear: right;
 }
 .legal {
   float: right;
-  clear: left;
 }
