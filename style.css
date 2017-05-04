@@ -6,6 +6,7 @@
 html, body {
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 a {
@@ -16,26 +17,30 @@ div {
   display:block;
 }
 .nav {
+  text-align: -webkit-right;
   float: right;
   clear: left;
   width: 100%;
-  flex: auto;
-  justify-content: flex-end;
 }
 
 .page {
+  height: 100%;
   min-height: 100%;
   position: absolute;
+  width: 100%;
+
 }
 
 .body {
   margin-top: 100px;
   text-align: -webkit-center;
   display: block;
+  clear: both;
 }
 
 .logo {
   margin-top: 32px;
+  clear: both;
 }
 
 .search_bar {
