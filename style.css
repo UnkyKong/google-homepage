@@ -4,7 +4,7 @@
 }
 
 html, body {
-      font-family: arial,sans-serif;
+    font-family: arial,sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -13,19 +13,26 @@ html, body {
 }
 
 a {
+  color: #666;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 div {
   display:block;
-
 }
+
 .nav {
   font-size: small;
   text-align: -webkit-right;
   float: right;
   clear: left;
   width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .page {
@@ -44,7 +51,7 @@ div {
 }
 
 .logo {
-  margin-top: 32px;
+  margin-top: 109px;
   clear: both;
 }
 
@@ -53,8 +60,28 @@ div {
   width: 100%;
 }
 
-img.search_bar {
-  float: right;
+.search_bar {
+ height: 44px;
+}
+
+.center {
+
+  padding-top: 30px;
+}
+input {
+  border: none;
+  height: 44px;
+}
+
+.google {
+  margin-top: 109px;
+}
+
+.item_nav, .round {
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  border: 3px solid white;
+  border-radius: 50%;
 }
 
 .footer {
@@ -63,7 +90,9 @@ img.search_bar {
   display: block;
   height: 40px;
   position: absolute;
+  bottom: 0;
   width: 100%;
+  background-color: rgb(242, 242, 242);
 }
 
 .footer_link {
@@ -75,4 +104,5 @@ img.search_bar {
 }
 .legal {
   float: right;
+  margin-right: 30px;
 }
