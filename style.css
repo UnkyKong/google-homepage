@@ -6,14 +6,31 @@ a {
   text-decoration: none;
 }
 .nav {
-  border: 1px solid black;
   float: right;
   clear: left;
 }
 
-.body {
-  text-align: center;
+.page {
+  min-height: 100%;
+  position: absolute;
+  width: 980px;
+  min-width: 980px;
 }
+
+.body {
+  margin-top: 100px;
+  text-align: -webkit-center;
+  display: block;
+}
+
+.logo {
+  margin-top: 32px;
+}
+
+.search_bar {
+  display: inline-block;
+}
+
 .buisness {
   float: left;
   clear: right;
