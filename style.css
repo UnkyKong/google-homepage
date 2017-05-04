@@ -1,0 +1,24 @@
+*{
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+.nav {
+  border: 1px solid black;
+  float: right;
+  clear: left;
+}
+
+.body {
+  text-align: center;
+}
+.buisness {
+  float: left;
+  clear: right;
+}
+.legal {
+  float: right;
+  clear: left;
+}
